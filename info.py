@@ -71,8 +71,8 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
     
       # URL Shortener #
 IS_LAZYUSER_VERIFICATION = is_enabled((environ.get("IS_LAZYUSER_VERIFICATION","True")), False) # make it true to enable url shortner in groups or pm
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'gplinks.com') #Always use website url from api section 
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '5ac92c0b20d9afdd57b43cf6254c1997242c5a9a')
+LAZY_SHORTENR_URL = environ.get('LAZY_SHORTENR_URL', 'gplinks.com') #Always use website url from api section 
+LAZY_SHORTNER_API = environ.get('LAZY_SHORTNER_API', '5ac92c0b20d9afdd57b43cf6254c1997242c5a9a')
 
 
      # Auto Delete For Group Message (Self Delete) #
