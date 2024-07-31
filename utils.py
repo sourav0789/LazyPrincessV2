@@ -29,6 +29,8 @@ SMART_OPEN = '“'
 SMART_CLOSE = '”'
 START_CHAR = ('\'', '"', SMART_OPEN)
 
+TOKENS = {}
+VERIFIED = {}
 # temp db for banned 
 class temp(object):
     BANNED_USERS = []
